@@ -2,8 +2,8 @@
 @charset "ISO-8859-1";
 .body-company{
 	background-color:rgb(77, 171, 238);
-	margin-top:0;
 	margin-left:0;
+	margin-top:0;
 	margin-right:0;
 }
 .logo{
@@ -37,6 +37,7 @@
 	display:grid;
 	grid-template-columns:1fr;
 	height:400px;
+	margin-bottom:150px;
 }
 .c-block-image{
 	height:400px;
@@ -50,4 +51,98 @@
 	color:green;
 	font-size:20px;
 	margin-left:20px;
+
+}
+.staff-div{
+	display:grid;
+	grid-template-columns:1fr 1fr;
+	height:700px;
+	margin-bottom:200px;
+}
+.pro-image{
+	text-align:center;
+	margin-top:25px;
+}
+.prof-img{
+	border-radius:40px;
+	box-shadow:5px 5px 15px grey;
+}
+.prof-img:hover{
+	box-shadow:10px 10px 20px grey;
+	border:none;
+}
+.welcome-div{
+	margin-top:100px;
+	margin-left:0;
+	margin-bottom:0;
+	height:120px;
+	width:500px;
+	line-height:60px;
+}
+
+.welcome-para{
+	margin-top:0px;
+	font-size:40px;
+	font-weight:bold;
+	color:white;
+	
+}
+.form{
+	text-align:left;
+}
+.form-div{
+	height:600px;
+	margin-left:100px;
+}
+.user-input,
+.pass-input{
+	margin-top:30px;
+	font-size:26px;
+	border:none;
+	border-radius:12px;
+	color:grey;
+	padding-left:20px;
+	padding-right:50px;
+	padding-top:15px;
+	padding-bottom:15px;
+	margin-bottom:20px;
+	box-shadow:2px 2px 10px black;
+}
+.user-input:hover{
+	border:none;
+	box-shadow:5px 5px 14px grey;
+	font-weight:bold;
+}
+.submit-input{
+	color:white;
+	background-color:red;
+	border:none;
+	margin-top:50px;
+	margin-left:120px;
+	border-radius:20px;
+	padding-left:30px;
+	font-size:20px;
+	padding-right:30px;
+	padding-top:13px;
+	padding-bottom:13px;
+	transition:opacity 2s;
+	cursor:pointer;
+}
+.submit-input:hover{
+	opacity:0.5;
+}
+.submit-input:active{
+	box-shadow:2px 2px 10px white; 
+}
+.new-staff{
+	color:white;
+	font-size:20px;
+	margin-top:50px;
+	font-weight:bold;
+}
+.sign-in{
+	color:black;
+}
+.sign-in:hover{
+	opacity:0.7;
 }

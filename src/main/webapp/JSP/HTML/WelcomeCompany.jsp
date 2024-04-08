@@ -22,16 +22,23 @@
         <div class="c-block-div">
         	<img class="c-block-image" src="Images/c-block-image.jpg">
         </div>
-        <div class="proffessor">
-        	<div class="professor-image">
+        <div class="staff-div">
+        	<div class="pro-image">
         		<img class="prof-img" src="Images/prof.jpg">
         	</div>
        		<div class="log-in">
-       			<form method="post" action="login.jsp">
-       				<input type="text" name="userName" placeholder="User-Name">
-       				<input type="password" name="passWord" placceholder="Pass-word">
-       				<input type="submit" value="Log in">
-       			</form>
+       			<div class="welcome-div">
+       				<p class="welcome-para">Welcome to <span style="color:black; font-weight:bold;">Dr.N.G.P IT </span>Staff Portal </p>
+       			</div>
+       			<div class="form-div">
+       				<form method="post" action="login.jsp" class="form">
+       					<input type="text" name="userName" placeholder="Staff-Name" class="user-input"><br>
+       					<input type="password" name="passWord" placeholder="Pass-Word" class="pass-input"><br>
+       					<input type="submit" value="Log in" class="submit-input">
+       				</form>
+       				<p class="new-staff">Are You a New Staff !? <a class="sign-in">sign In</a></p>
+       			</div>
+       			
        		</div>		
         </div>
 	</body>
