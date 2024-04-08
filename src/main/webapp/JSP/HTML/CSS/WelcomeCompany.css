@@ -1,0 +1,53 @@
+@charset "ISO-8859-1";
+@charset "ISO-8859-1";
+.body-company{
+	background-color:rgb(77, 171, 238);
+	margin-top:0;
+	margin-left:0;
+	margin-right:0;
+}
+.logo{
+	display:grid;
+	grid-template-columns:60px 1fr 150px;
+	height:60px;
+	column-gap:10px;
+	background-color:white;
+	margin-top:0;
+	vertical-align:top;
+}
+.logo-img{
+	margin-top:5px;
+	margin-left:5px;
+	width:50px;
+	height:50px;
+	object-fit:cover;
+}
+.ngp-para{
+	width:100%;
+	font-weight:bold;
+	color:rgb(59, 59, 218);
+	font-size:35px;
+	margin-top:8px;
+	text-align:center;
+}
+.tech-span{
+	color:rgb(53, 50, 50);
+}
+.c-block-div{
+	display:grid;
+	grid-template-columns:1fr;
+	height:400px;
+}
+.c-block-image{
+	height:400px;
+	width:100%;
+
+}
+.staff-portal{
+	margin-left:0;
+	width:100px;
+	font-weight:bold;
+	color:green;
+	font-size:20px;
+	margin-left:20px;
+}
