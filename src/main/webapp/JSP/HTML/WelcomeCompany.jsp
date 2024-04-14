@@ -31,12 +31,12 @@
        				<p class="welcome-para">Welcome to <span style="color:black; font-weight:bold;">Dr.N.G.P IT </span>Staff Portal </p>
        			</div>
        			<div class="form-div">
-       				<form method="post" action="login.jsp" class="form">
+       				<form method="post" action="login" class="form">
        					<input type="text" name="userName" placeholder="Staff-Name" class="user-input"><br>
        					<input type="password" name="passWord" placeholder="Pass-Word" class="pass-input"><br>
        					<input type="submit" value="Log in" class="submit-input">
        				</form>
-       				<p class="new-staff">Are You a New Staff !? <a class="sign-in">sign In</a></p>
+       				<p class="new-staff">Are You a New Staff !? <a class="sign-in" href="signIn.jsp">sign In</a></p>
        			</div>
        			
        		</div>		

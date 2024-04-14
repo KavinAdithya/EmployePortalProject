@@ -1,0 +1,177 @@
+@charset "ISO-8859-1";body{
+    background-color:rgb(78, 16, 150);
+    margin:0;
+    padding-bottom:1000px;
+}
+.header-section{
+    /* border:2px solid black; */
+    height:220px;
+    display:flex;
+    flex-direction:row;
+}
+.image-div{
+    display:inline-block;
+    width:200px;
+    height:200px;
+    margin-left:150px;
+    margin-right:0;
+}
+.para-section{
+   
+    margin-left:0px;
+    margin-top:20px;
+    vertical-align: top;
+    flex:1;
+    display:flex;
+    flex-direction:column;
+    text-align:left;
+}
+/* div{
+    border:2px solid black;
+
+} */
+.ngp-logo{
+    width: 190px;
+    height:175px;
+    margin-top:20px;
+}
+.name-section{
+    display:inline-block;
+    vertical-align:top;
+    margin-left:30px;
+    flex:1;
+    margin-top:10px;
+}
+.name-para{
+    font-weight:bold;
+    color:yellow;
+    font-size:55px;
+    margin-top:0;
+    margin-bottom:0;
+    margin-left:20px;
+}
+.auto-para{
+    font-weight:bold;
+    color:white;
+    margin-left:460px;
+    margin-top:0;
+    font-size:18px;
+    margin-bottom:0;
+}
+.approve-para{
+    font-size:18px;
+    color:white;
+    margin-left:320px;
+    margin-top:5px;
+    flex:1;
+
+    margin-bottom:0;
+}
+.approve1-para{
+    font-size:18px;
+    color:white;
+    margin-left:200px;
+    margin-top:5px;
+    flex:1;
+
+    margin-bottom:0;
+}
+.approve2-para{
+    font-size:18px;
+    color:white;
+    margin-left:380px;
+    margin-top:5px;
+    flex:1;
+
+    margin-bottom:0;
+}
+.approve3-para{
+    font-size:18px;
+    color:white;
+    margin-left:300px;
+    margin-top:5px;
+    flex:1;
+
+    margin-bottom:0;
+}
+.d-block-section{
+    margin-top:300px;
+    height:2000px;
+}
+.d-block{
+    height:2000px;
+    opacity:0.5;
+    color:white;
+    display:inline-block;
+}
+.welcome-div{
+    margin-top:80px;
+
+}
+.welcome-para{
+    color:white;
+    text-align:center;
+    font-size:35px;
+    font-weight:bold;
+}
+.sign-in-section{
+    display:inline-block;
+    vertical-align:top;
+    background-color:white;
+   margin-top:40px;
+    height:1500px;
+    width:800px;
+    margin-left:400px;
+   border-radius:10px;
+   box-shadow:3px 3px 15px 3px black;
+}
+input{
+    margin-left:250px;
+    margin-top:80px;
+    font-size:20px;
+    padding:10px;
+    padding-right:30px;
+    width:300px;
+    height:30px;
+    color:white;
+    border-radius:3px;
+    border-style:solid;
+    background-color:black;
+    box-shadow:3px 3px 12px 2px rgb(107, 104, 104);
+    border-radius:3px;
+    border:none;
+}
+.sign-para{
+    font-size:40px;
+    color:black;
+    font-weight:bold;
+    margin-left:100px;
+    margin-top:40px;
+    margin-bottom:0;
+}
+.up-input{
+    color:white;
+    background-color:rgb(144, 103, 42);
+    margin-top:50px;
+    margin-left:350px;
+    padding-left:10px;
+    padding-right:15px;
+    padding-top:10px;
+    padding-bottom:35px;
+    width:100px;
+    cursor:pointer;
+}
+.up-input:hover{
+	opacity:0.5;
+}
+.exist{
+    color:white;
+    margin-top:40px;
+    margin-left:700px;
+}
+a{
+    color:rgb(25, 135, 135);
+}
+a:hover{
+	opacity:0.5;
+}
